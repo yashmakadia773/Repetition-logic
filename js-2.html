@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+  <!-- <script>
+        var a = prompt("Enter value = ");
+
+        if (a > 0) {
+            console.log("number is positive");
+        }
+        else if (a == 0) {
+            console.log("number is neutral");
+        }
+        else {
+            console.log("negative number")
+        }
+
+    </script> -->
+
+    <!-- 2 -->
+     
+    <script>
+
+        var a = prompt("Enter value = ");
+
+        if (a % 2 == 0) {
+            console.log("number is even");
+        }
+        else {
+            console.log("number is odd");
+        }
+
+    </script> 
+
+    <!-- 3 -->
+     <script>
+
+
+        var a = prompt("Enter year = ");
+
+        if (a % 4 == 0) {
+            console.log("number is leep year");
+        }
+        else {
+            console.log("number is not leep year");
+        }
+
+    </script> 
+    <!-- 4 -->
+
+ <script>
+        var a =parseInt(prompt("Enter value of  A ="));
+        var b =parseInt(prompt("Enter value of  B ="));
+        var c =parseInt(prompt("Enter value of  C ="));
+        var d =parseInt(prompt("Enter value of  D ="));
+
+        if (a > b && a > c && a > d) {
+            document.write("A is greater");
+        }
+        else if (b > a && b > c && b > d) {
+            document.write("B is greater");
+
+        }
+        else if (c > a && c > d && c > b) {
+            document.write("C is greater");
+
+        }
+        else if (d > a && d > b && d > c) {
+            document.write("D is greatest");
+        }
+        else{
+            document.write("All are equal");
+        }
+    </script> 
+
+    <!-- 5 -->
+
+ <script>
+        var a = prompt("Enter year = ");
+
+        if (a > 18) {
+            console.log("you are eligible");
+        }
+        else {
+            console.log("number is not eligible");
+        }
+
+    </script> 
+
+    <!-- 6 -->
+   <script>
+        let Phy = parseInt(prompt("enter phy marks"));
+        let Che = parseInt(prompt("enter Che marks"));
+        let Bio = parseInt(prompt("enter Bio marks"));
+        let Math = parseInt(prompt("enter Math marks"));
+        let Com = parseInt(prompt("enter Com marks"));
+
+        let total = (Phy + Che + Bio + Math + Com) / 5;
+
+        if (total >= 90 && total < 100) {
+            document.write(`Total Percentage ${total} and Grade is A`);
+        }
+        else if (total >= 80 && total <= 89) {
+            document.write(`Total Percentage ${total} and Grade is B`);
+        }
+        else if (total >= 70 && total <= 79) {
+            document.write(`Total Percentage ${total} and Grade is C`);
+        }
+        else if (total >= 60 && total <= 69) {
+            document.write(`Total Percentage ${total} and Grade is D`);
+        }
+        else if (total >= 50 && total <= 59) {
+            document.write(`Total Percentage ${total} and Grade is E`);
+        }
+        else if (total >= 40 && total <= 49) {
+            document.write(`Total Percentage ${total} and Grade is F`);
+        }
+        else {
+            document.write("fail")
+        }
+    </script> 
+
+    <!-- 7 -->
+
+    <script>
+        let month = parseInt(prompt("month number"));
+
+        switch (month) {
+            case 1:
+                document.write("month name January");
+                break;
+            case 2:
+                document.write("month name February");
+                break;
+            case 3:
+                document.write("month name March");
+                break;
+            case 4:
+                document.write("month name April");
+                break;
+            case 5:
+                document.write("month name May");
+                break;
+            case 6:
+                document.write("month name June");
+                break;
+            case 7:
+                document.write("month name July");
+                break;
+            case 8:
+                document.write("month name August");
+                break;
+            case 9:
+                document.write("month name September");
+                break;
+            case 10:
+                document.write("month name October");
+                break;
+            case 11:
+                document.write("month name November");
+                break;
+            case 12:
+                document.write("month name December");
+                break;
+            default:
+                document.write("This number not available ");
+        } 
+    </script> -->
+
+    <!-- 8 -->
+   <script>
+        
+        let weekname = prompt("enter first letter");
+
+        if (weekname == "M" || weekname == "m") {
+            document.write(" <br>  output :- monday");
+        }
+        else if (weekname == "T" || weekname == "t") {
+            document.write(" <br> output :- Tuesday");
+        }
+        else if (weekname == "W" || weekname == "w") {
+            document.write(" <br> output :- Wednesday");
+        }
+        else if (weekname == "TH" || weekname == "th") {
+            document.write(" <br> output :- Thursday");
+        }
+        else if (weekname == "F" || weekname == "f") {
+            document.write(" <br> output :- Friday");
+        }
+        else if (weekname == "S" || weekname == "s") {
+            document.write(" <br> output :- Saturday");
+        }
+        else if (weekname == "SU" || weekname == "su") {
+            document.write(" <br> output :- Sunday");
+        }
+        else {
+            document.write("this letter not week name");
+        }
+    </script> -->
+
+    <!-- 9 -->
+     <script>
+        var a = parseInt(prompt("enter number A :-"));
+        var b = parseInt(prompt("enter number B :-"));
+        var c = parseInt(prompt("enter number C :-"));
+        var d = parseInt(prompt("enter number D :-"));
+
+        document.write("A = " + a + "<br>");
+        document.write("B = " + b + "<br>");
+        document.write("C = " + c + "<br>");
+        document.write("D = " + d + "<br>");
+
+        if (a > b) {
+            if (a > c) {
+                if (a > d) {
+                    document.write("Maximum No. is A ");
+                }
+                else {
+                    document.write("Maximum No. is D ");
+                }
+            }
+            else {
+                if (c > d) {
+                    document.write("Maximum No. is C ");
+                }
+                else {
+                    document.write("Maximum No. is D ");
+                }
+            }
+        }
+        else {
+            if (b > c) {
+                if (b > d) {
+                    document.write("Maximum No. is B ");
+                }
+                else {
+                    document.write("Maximum No. is D");
+                }
+            }
+            else {
+                if (c > d) {
+                    document.write("Maximum No. is C");
+                }
+                else {
+                    document.write("Maximum No. is D");
+                }
+            }
+        }
+    </script> -->
+
+    <!-- 10 -->
+     <script>
+        let a = parseFloat(prompt("enter value A :-"));
+        let b = parseFloat(prompt("enter value B :-"));
+        let c = prompt("select and c + , - , * , / , %");
+        let r = 0;
+        document.write(`A = ${a} <br>`);
+        document.write(`B = ${b} <br>`);
+        switch (c) {
+            case '+':
+                r = a + b;
+                break;
+            case '-':
+                r = a - b;
+                break;
+            case '*':
+                r = a * b;
+                break;
+            case '/':
+                r = a / b;
+                break;
+            case '%':
+                r = a % b;
+                break;
+            default:
+                printf("Invalid operator!\n");
+                break;
+        }
+
+        document.write(`answer = ${r}`)
+    </script> -->
+    <!-- 11 -->
+<script>
+        let a = parseFloat(prompt("ENTER A VALUE A :-"));
+        let b = parseFloat(prompt("ENTER B VALUE B :- "));
+        document.write(`A = ${a} <br>`);
+        document.write(`B = ${b} <br>`);
+
+        let choice = prompt("ENTER CHOICE :-" + "\n" + "1.Addition(+)" + "\n" + "2.Subtraction(-)" + "\n" + "3.Multiplication(*)" + "\n" + "4.Division(/)" + "\n" + "5.Modulo(%)" + "\n");
+
+        if (choice == "+") {
+            document.write(`ANSWER = ${a + b}`);
+        }
+        else if (choice == "-") {
+            document.write(`ANSWER = ${a - b}`);
+        }
+        else if (choice == "*") {
+            document.write(`ANSWER = ${a * b}`);
+        }
+        else if (choice == "/") {
+            document.write(`ANSWER = ${a / b}`);
+        }
+        else if (choice == "%") {
+            document.write(`ANSWER = ${a % b}`);
+        }
+        else {
+            document.write("WRONG CHOICE");
+        }
+    </script> -->
+
+    <!-- 12 -->
+ <script>
+        let a = parseInt(prompt("enter value A :-"));
+        let b = parseInt(prompt("enter value B :-"));
+        let c = parseInt(prompt("enter value C :-"));
+        let total = a + b + c;
+        document.write(`A = ${a} <br>`);
+        document.write(`B = ${b} <br>`);
+        document.write(`C = ${c} <br>`);
+
+        if (total == 180) {
+            document.write(`this value ${total} is a triangle valid value `);
+        }
+        else {
+            document.write(`this value ${total} is a triangle not valid value `);
+
+        }
+
+    </script> 
+</body>
+
+</html>
